@@ -1,10 +1,8 @@
-# Avalanche-Subnets
-
-## ERC20 Token and Vault Smart Contract
+# EVM Subnets - ERC20 Token and Vault Smart Contracts
 
 ## Overview
 
-This repository hosts two Solidity smart contracts: `ERC20.sol` and `vault.sol`. The `ERC20.sol` contract establishes a basic ERC-20 token, incorporating essential functions such as transfer, approve, mint, and burn. On the other hand, the `vault.sol` contract serves as a secure storage solution for the ERC-20 token, enabling users to deposit and withdraw tokens while managing the overall supply and individual balances.
+Welcome to the Avalanche Subnets repository! Here, you'll find two essential Solidity smart contracts: `ERC20.sol` and `vault.sol`. The `ERC20.sol` contract establishes the foundation for an ERC-20 token, complete with fundamental functions such as transfer, approve, mint, and burn. Meanwhile, the `vault.sol` contract acts as a secure storage solution for the ERC-20 token, enabling users to deposit and withdraw tokens while managing the overall supply and individual balances.
 
 ## Getting Started with Remix:
 
@@ -16,7 +14,7 @@ This repository hosts two Solidity smart contracts: `ERC20.sol` and `vault.sol`.
 ### Steps:
 
 1. Open Remix IDE:
-   - Navigate your web browser to Remix IDE.
+   - Access Remix IDE through your preferred web browser.
 
 2. Import Contracts:
    - Copy the contents of `ERC20.sol` and `vault.sol`.
@@ -24,17 +22,17 @@ This repository hosts two Solidity smart contracts: `ERC20.sol` and `vault.sol`.
    - Paste the respective contents into each file.
 
 3. Compile Contracts:
-   - Within Remix, access the "Solidity" tab.
-   - Choose the appropriate version for the Solidity compiler (e.g., ^0.8.17).
+   - In Remix, navigate to the "Solidity" tab.
+   - Choose the appropriate Solidity compiler version (e.g., ^0.8.17).
    - Click the "Compile" button to compile the contracts.
 
 4. Deploy Token Contract:
    - Switch to the "Deploy & Run Transactions" tab.
    - Select `ERC20.sol` in the contract dropdown.
-   - Click the "Deploy" button to initiate the deployment of the ERC-20 token contract.
+   - Click the "Deploy" button to initiate ERC-20 token contract deployment.
 
 5. Copy Token Address:
-   - Upon deployment, copy the token contract address from the Remix console.
+   - After deployment, copy the token contract address from the Remix console.
 
 6. Deploy Vault Contract:
    - Choose `vault.sol` in the contract dropdown.
@@ -48,7 +46,7 @@ Once deployed, interact with the contracts through the provided functions:
 
 ## Authors
 
-- pras777
+- Author: snehaa02
 
 ## License:
 
